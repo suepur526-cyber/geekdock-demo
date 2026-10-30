@@ -1,0 +1,1 @@
+const s=t=>Number(t||0).toFixed(2),n={10:{text:"待支付",type:"warning"},20:{text:"待发货",type:"primary"},30:{text:"待收货",type:"success"},40:{text:"已完成",type:"info"},50:{text:"已退款",type:"danger"},60:{text:"已取消",type:"info"}},x=t=>{var e;return((e=n[t])==null?void 0:e.text)||"未知"};export{n as O,s as m,x as s};
